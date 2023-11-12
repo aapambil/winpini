@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>CASH COUNTER</title>
+</head>
+<body>
+    <h1>CASH COUNTER</h1>
+
+    
+    <table id="session1">
+        <caption>PHARMA MORNING</caption>
+        <thead>
+            <tr>
+                <th>Notes</th>
+                <th>Number</th>
+                <th>Amount</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>200</td>
+                <td><input type="number" class="note-input" data-denomination="200"></td>
+                <td class="amount"></td>
+            </tr>
+            <tr>
+                <td>100</td>
+                <td><input type="number" class="note-input" data-denomination="100"></td>
+                <td class="amount"></td>
+            </tr>
+            <tr>
+                <td>50</td>
+                <td><input type="number" class="note-input" data-denomination="50"></td>
+                <td class="amount"></td>
+            </tr>
+            <tr>
+                <td>20</td>
+                <td><input type="number" class="note-input" data-denomination="20"></td>
+                <td class="amount"></td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td><input type="number" class="note-input" data-denomination="10"></td>
+                <td class="amount"></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td><input type="number" class="note-input" data-denomination="5"></td>
+                <td class="amount"></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td><input type="number" class="note-input" data-denomination="2"></td>
+                <td class="amount"></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td><input type="number" class="note-input" data-denomination="1"></td>
+                <td class="amount"></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2" class="total">Total Amount:</td>
+                <td class="total-amount"></td>
+            </tr>
+        </tfoot>
+    </table>
+
+   
+    <table id="session2">
+        <caption>PHARMA AFTERNOON</caption>
+        <thead>
+            <tr>
+                <th>Notes</th>
+                <th>Number</th>
+                <th>Amount</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>200</td>
+                <td><input type="number" class="note-input" data-denomination="200"></td>
+                <td class="amount"></td>
+            </tr>
+            <tr>
+                <td>100</td>
+                <td><input type="number" class="note-input" data-denomination="100"></td>
+                <td class="amount"></td>
+            </tr>
+            <tr>
+                <td>50</td>
+                <td><input type="number" class="note-input" data-denomination="50"></td>
+                <td class="amount"></td>
+            </tr>
+            <tr>
+                <td>20</td>
+                <td><input type="number" class="note-input" data-denomination="20"></td>
+                <td class="amount"></td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td><input type="number" class="note-input" data-denomination="10"></td>
+                <td class="amount"></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td><input type="number" class="note-input" data-denomination="5"></td>
+                <td class="amount"></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td><input type="number" class="note-input" data-denomination="2"></td>
+                <td class="amount"></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td><input type="number" class="note-input" data-denomination="1"></td>
+                <td class="amount"></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2" class="total">Total Amount:</td>
+                <td class="total-amount"></td>
+            </tr>
+        </tfoot>
+    </table>
+
+
+    
+<table id="session3">
+    <caption>PHARMA NIGHT</caption>
+    <thead>
+        <tr>
+            <th>Notes</th>
+            <th>Number</th>
+            <th>Amount</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>200</td>
+            <td><input type="number" class="note-input" data-denomination="200"></td>
+            <td class="amount"></td>
+        </tr>
+        <tr>
+            <td>100</td>
+            <td><input type="number" class="note-input" data-denomination="100"></td>
+            <td class="amount"></td>
+        </tr>
+        <tr>
+            <td>50</td>
+            <td><input type="number" class="note-input" data-denomination="50"></td>
+            <td class="amount"></td>
+        </tr>
+        <tr>
+            <td>20</td>
+            <td><input type="number" class="note-input" data-denomination="20"></td>
+            <td class="amount"></td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td><input type="number" class="note-input" data-denomination="10"></td>
+            <td class="amount"></td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td><input type="number" class="note-input" data-denomination="5"></td>
+            <td class="amount"></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td><input type="number" class="note-input" data-denomination="2"></td>
+            <td class="amount"></td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td><input type="number" class="note-input" data-denomination="1"></td>
+            <td class="amount"></td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="2" class="total">Total Amount:</td>
+            <td class="total-amount"></td>
+        </tr>
+    </tfoot>
+</table>
+
+<!--reapeat-->
+<table id="session4">
+    <caption>OPD MORNING</caption>
+    <thead>
+        <tr>
+            <th>Notes</th>
+            <th>Number</th>
+            <th>Amount</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>200</td>
+            <td><input type="number" class="note-input" data-denomination="200"></td>
+            <td class="amount"></td>
+        </tr>
+        <tr>
+            <td>100</td>
+            <td><input type="number" class="note-input" data-denomination="100"></td>
+            <td class="amount"></td>
+        </tr>
+        <tr>
+            <td>50</td>
+            <td><input type="number" class="note-input" data-denomination="50"></td>
+            <td class="amount"></td>
+        </tr>
+        <tr>
+            <td>20</td>
+            <td><input type="number" class="note-input" data-denomination="20"></td>
+            <td class="amount"></td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td><input type="number" class="note-input" data-denomination="10"></td>
+            <td class="amount"></td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td><input type="number" class="note-input" data-denomination="5"></td>
+            <td class="amount"></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td><input type="number" class="note-input" data-denomination="2"></td>
+            <td class="amount"></td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td><input type="number" class="note-input" data-denomination="1"></td>
+            <td class="amount"></td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="2" class="total">Total Amount:</td>
+            <td class="total-amount"></td>
+        </tr>
+    </tfoot>
+</table>
+
+
+<table id="session5">
+    <caption>OPD AFTERNOON</caption>
+    <thead>
+        <tr>
+            <th>Notes</th>
+            <th>Number</th>
+            <th>Amount</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>200</td>
+            <td><input type="number" class="note-input" data-denomination="200"></td>
+            <td class="amount"></td>
+        </tr>
+        <tr>
+            <td>100</td>
+            <td><input type="number" class="note-input" data-denomination="100"></td>
+            <td class="amount"></td>
+        </tr>
+        <tr>
+            <td>50</td>
+            <td><input type="number" class="note-input" data-denomination="50"></td>
+            <td class="amount"></td>
+        </tr>
+        <tr>
+            <td>20</td>
+            <td><input type="number" class="note-input" data-denomination="20"></td>
+            <td class="amount"></td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td><input type="number" class="note-input" data-denomination="10"></td>
+            <td class="amount"></td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td><input type="number" class="note-input" data-denomination="5"></td>
+            <td class="amount"></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td><input type="number" class="note-input" data-denomination="2"></td>
+            <td class="amount"></td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td><input type="number" class="note-input" data-denomination="1"></td>
+            <td class="amount"></td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="2" class="total">Total Amount:</td>
+            <td class="total-amount"></td>
+        </tr>
+    </tfoot>
+</table>
+
+<table id="session6">
+    <caption>ANC</caption>
+    <thead>
+        <tr>
+            <th>Notes</th>
+            <th>Number</th>
+            <th>Amount</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>200</td>
+            <td><input type="number" class="note-input" data-denomination="200"></td>
+            <td class="amount"></td>
+        </tr>
+        <tr>
+            <td>100</td>
+            <td><input type="number" class="note-input" data-denomination="100"></td>
+            <td class="amount"></td>
+        </tr>
+        <tr>
+            <td>50</td>
+            <td><input type="number" class="note-input" data-denomination="50"></td>
+            <td class="amount"></td>
+        </tr>
+        <tr>
+            <td>20</td>
+            <td><input type="number" class="note-input" data-denomination="20"></td>
+            <td class="amount"></td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td><input type="number" class="note-input" data-denomination="10"></td>
+            <td class="amount"></td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td><input type="number" class="note-input" data-denomination="5"></td>
+            <td class="amount"></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td><input type="number" class="note-input" data-denomination="2"></td>
+            <td class="amount"></td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td><input type="number" class="note-input" data-denomination="1"></td>
+            <td class="amount"></td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="2" class="total">Total Amount:</td>
+            <td class="total-amount"></td>
+        </tr>
+    </tfoot>
+</table>
+
+ 
+ <table id="summary">
+    <caption>Summary</caption>
+    <thead>
+        <tr>
+            <th>Notes</th>
+            <th>Total Number</th>
+            <th>Total Amount</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>200</td>
+            <td class="total-number"></td>
+            <td class="total-amount"></td>
+        </tr>
+        <tr>
+            <td>100</td>
+            <td class="total-number"></td>
+            <td class="total-amount"></td>
+        </tr>
+        <tr>
+            <td>50</td>
+            <td class="total-number"></td>
+            <td class="total-amount"></td>
+        </tr>
+        <tr>
+            <td>20</td>
+            <td class="total-number"></td>
+            <td class="total-amount"></td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td class="total-number"></td>
+            <td class="total-amount"></td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td class="total-number"></td>
+            <td class="total-amount"></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td class="total-number"></td>
+            <td class="total-amount"></td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td class="total-number"></td>
+            <td class="total-amount"></td>
+        </tr>
+        <tfoot>
+        <tr>
+            <td>Total</td>
+            <td class="total-number" id="totalNumbers"></td>
+            <td class="total-amount" id="grandTotalAmount"></td>
+        </tr>
+    </tfoot>
+    </tbody>
+    
+</table>
+
+    <script>
+       document.addEventListener("input", function (event) {
+            // Check if the input event is from a note input field
+            if (event.target.classList.contains("note-input")) {
+                updateTable(event.target.closest("table"));
+                updateSummary();
+            }
+        });
+
+        function updateTable(table) {
+            let totalAmountCell = table.querySelector(".total-amount");
+            let rows = table.getElementsByTagName("tr");
+            let totalAmount = 0;
+
+            // Loop through each row in the table
+            for (let i = 1; i < rows.length - 1; i++) {
+                let inputField = rows[i].querySelector(".note-input");
+                let amountCell = rows[i].querySelector(".amount");
+                let denomination = parseInt(inputField.dataset.denomination);
+                let value = parseInt(inputField.value) || 0;
+
+                // Calculate the amount for the current row
+                let rowAmount = value * denomination;
+                amountCell.textContent = rowAmount;
+
+                // Update the total amount for the table
+                totalAmount += rowAmount;
+            }
+
+            // Update the total amount cell in the table
+            totalAmountCell.textContent = totalAmount;
+        }
+
+        function updateSummary() {
+            let summaryTable = document.getElementById("summary");
+
+            // Initialize total variables
+            let totalNumbers = {};
+            let totalAmounts = {};
+
+            // Loop through each session table
+            for (let i = 1; i <= 6; i++) {
+                let sessionTable = document.getElementById("session" + i);
+                let rows = sessionTable.getElementsByTagName("tr");
+
+                // Loop through each row in the session table
+                for (let j = 1; j < rows.length - 1; j++) {
+                    let inputField = rows[j].querySelector(".note-input");
+
+                    // Update total variables based on input values
+                    let denomination = parseInt(inputField.dataset.denomination);
+                    totalNumbers[denomination] = (totalNumbers[denomination] || 0) + (parseInt(inputField.value) || 0);
+                    totalAmounts[denomination] = (totalAmounts[denomination] || 0) + (parseInt(inputField.value) || 0) * denomination;
+                }
+            }
+
+            // Update the summary table
+            let summaryRows = summaryTable.getElementsByTagName("tr");
+
+            for (let i = 1; i < summaryRows.length; i++) {
+                let denomination = parseInt(summaryRows[i].cells[0].textContent);
+                summaryRows[i].querySelector(".total-number").textContent = totalNumbers[denomination] || 0;
+                summaryRows[i].querySelector(".total-amount").textContent = totalAmounts[denomination] || 0;
+            }
+        }
+
+        // Initial update when the page loads
+        updateSummary();
+       
+      /**/
+      function updateSummary() {
+    let summaryTable = document.getElementById("summary");
+
+    // Initialize total variables
+    let totalNumbers = {};
+    let totalAmounts = {};
+    let grandTotalNumber = 0;
+    let grandTotalAmount = 0;
+
+    // Loop through each session table
+    for (let i = 1; i <= 6; i++) {
+        let sessionTable = document.getElementById("session" + i);
+        let rows = sessionTable.getElementsByTagName("tr");
+
+        // Loop through each row in the session table
+        for (let j = 1; j < rows.length - 1; j++) {
+            let inputField = rows[j].querySelector(".note-input");
+
+            // Update total variables based on input values
+            let denomination = parseInt(inputField.dataset.denomination);
+            totalNumbers[denomination] = (totalNumbers[denomination] || 0) + (parseInt(inputField.value) || 0);
+            totalAmounts[denomination] = (totalAmounts[denomination] || 0) + (parseInt(inputField.value) || 0) * denomination;
+        }
+    }
+
+    // Update the summary table
+    let summaryRows = summaryTable.getElementsByTagName("tr");
+
+    for (let i = 1; i < summaryRows.length - 1; i++) {
+        let denomination = parseInt(summaryRows[i].cells[0].textContent);
+        summaryRows[i].querySelector(".total-number").textContent = totalNumbers[denomination] || 0;
+        summaryRows[i].querySelector(".total-amount").textContent = totalAmounts[denomination] || 0;
+
+        // Update grand totals
+        grandTotalNumber += totalNumbers[denomination] || 0;
+        grandTotalAmount += totalAmounts[denomination] || 0;
+    }
+
+    // Update the total row in the summary table
+    summaryRows[summaryRows.length - 1].querySelector(".total-number").textContent = grandTotalNumber;
+    summaryRows[summaryRows.length - 1].querySelector(".total-amount").textContent = grandTotalAmount;
+}
+
+// Initial update when the page loads
+updateSummary();
+
+
+    
+
+    </script>
+</body>
+
+</html>
